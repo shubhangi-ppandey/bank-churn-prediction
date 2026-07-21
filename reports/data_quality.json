@@ -1,0 +1,163 @@
+{
+  "n_rows": 10000,
+  "n_cols": 14,
+  "missing_per_col": {
+    "Year": 0,
+    "CustomerId": 0,
+    "Surname": 0,
+    "CreditScore": 0,
+    "Geography": 0,
+    "Gender": 0,
+    "Age": 0,
+    "Tenure": 0,
+    "Balance": 0,
+    "NumOfProducts": 0,
+    "HasCrCard": 0,
+    "IsActiveMember": 0,
+    "EstimatedSalary": 0,
+    "Exited": 0
+  },
+  "duplicates": 0,
+  "dtypes": {
+    "Year": "int64",
+    "CustomerId": "int64",
+    "Surname": "str",
+    "CreditScore": "int64",
+    "Geography": "str",
+    "Gender": "str",
+    "Age": "int64",
+    "Tenure": "int64",
+    "Balance": "float64",
+    "NumOfProducts": "int64",
+    "HasCrCard": "int64",
+    "IsActiveMember": "int64",
+    "EstimatedSalary": "float64",
+    "Exited": "int64"
+  },
+  "target_distribution": {
+    "0": 7963,
+    "1": 2037
+  },
+  "churn_rate": 0.2037,
+  "geography_counts": {
+    "France": 5014,
+    "Germany": 2509,
+    "Spain": 2477
+  },
+  "gender_counts": {
+    "Male": 5457,
+    "Female": 4543
+  },
+  "numerical_summary": {
+    "Year": {
+      "count": 10000.0,
+      "mean": 2025.0,
+      "std": 0.0,
+      "min": 2025.0,
+      "25%": 2025.0,
+      "50%": 2025.0,
+      "75%": 2025.0,
+      "max": 2025.0
+    },
+    "CustomerId": {
+      "count": 10000.0,
+      "mean": 15690940.569,
+      "std": 71936.186,
+      "min": 15565701.0,
+      "25%": 15628528.25,
+      "50%": 15690738.0,
+      "75%": 15753233.75,
+      "max": 15815690.0
+    },
+    "CreditScore": {
+      "count": 10000.0,
+      "mean": 650.529,
+      "std": 96.653,
+      "min": 350.0,
+      "25%": 584.0,
+      "50%": 652.0,
+      "75%": 718.0,
+      "max": 850.0
+    },
+    "Age": {
+      "count": 10000.0,
+      "mean": 38.922,
+      "std": 10.488,
+      "min": 18.0,
+      "25%": 32.0,
+      "50%": 37.0,
+      "75%": 44.0,
+      "max": 92.0
+    },
+    "Tenure": {
+      "count": 10000.0,
+      "mean": 5.013,
+      "std": 2.892,
+      "min": 0.0,
+      "25%": 3.0,
+      "50%": 5.0,
+      "75%": 7.0,
+      "max": 10.0
+    },
+    "Balance": {
+      "count": 10000.0,
+      "mean": 76485.889,
+      "std": 62397.405,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 97198.54,
+      "75%": 127644.24,
+      "max": 250898.09
+    },
+    "NumOfProducts": {
+      "count": 10000.0,
+      "mean": 1.53,
+      "std": 0.582,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 2.0,
+      "max": 4.0
+    },
+    "HasCrCard": {
+      "count": 10000.0,
+      "mean": 0.706,
+      "std": 0.456,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "IsActiveMember": {
+      "count": 10000.0,
+      "mean": 0.515,
+      "std": 0.5,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "EstimatedSalary": {
+      "count": 10000.0,
+      "mean": 100090.24,
+      "std": 57510.493,
+      "min": 11.58,
+      "25%": 51002.11,
+      "50%": 100193.915,
+      "75%": 149388.248,
+      "max": 199992.48
+    },
+    "Exited": {
+      "count": 10000.0,
+      "mean": 0.204,
+      "std": 0.403,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 1.0
+    }
+  }
+}

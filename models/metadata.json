@@ -1,0 +1,127 @@
+{
+  "best_model": "GradientBoosting_tuned",
+  "metrics": {
+    "accuracy": 0.8695,
+    "precision": 0.7944,
+    "recall": 0.484,
+    "f1": 0.6015,
+    "roc_auc": 0.8697,
+    "pr_auc": 0.7199
+  },
+  "feature_names_after_preprocessing": [
+    "Geography_France",
+    "Geography_Germany",
+    "Geography_Spain",
+    "Gender_Female",
+    "Gender_Male",
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementScore",
+    "AgeTenureRatio",
+    "ZeroBalance"
+  ],
+  "raw_input_columns": [
+    "CreditScore",
+    "Geography",
+    "Gender",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "BalanceSalaryRatio",
+    "ProductDensity",
+    "EngagementScore",
+    "AgeTenureRatio",
+    "ZeroBalance"
+  ],
+  "categorical": [
+    "Geography",
+    "Gender"
+  ],
+  "n_train": 8000,
+  "n_test": 2000,
+  "churn_rate": 0.2037,
+  "random_state": 42,
+  "feature_value_ranges": {
+    "CreditScore": [
+      350.0,
+      850.0
+    ],
+    "Age": [
+      18.0,
+      92.0
+    ],
+    "Tenure": [
+      0.0,
+      10.0
+    ],
+    "Balance": [
+      0.0,
+      250898.09
+    ],
+    "NumOfProducts": [
+      1.0,
+      4.0
+    ],
+    "HasCrCard": [
+      0.0,
+      1.0
+    ],
+    "IsActiveMember": [
+      0.0,
+      1.0
+    ],
+    "EstimatedSalary": [
+      11.58,
+      199992.48
+    ],
+    "BalanceSalaryRatio": [
+      0.0,
+      9770.883147853736
+    ],
+    "ProductDensity": [
+      0.09090909090909091,
+      3.0
+    ],
+    "EngagementScore": [
+      0.0,
+      4.0
+    ],
+    "AgeTenureRatio": [
+      1.6363636363636365,
+      79.0
+    ],
+    "ZeroBalance": [
+      0.0,
+      1.0
+    ]
+  },
+  "feature_defaults": {
+    "CreditScore": 652.0,
+    "Geography": "France",
+    "Gender": "Male",
+    "Age": 37.0,
+    "Tenure": 5.0,
+    "Balance": 97198.54000000001,
+    "NumOfProducts": 1.0,
+    "HasCrCard": 1.0,
+    "IsActiveMember": 1.0,
+    "EstimatedSalary": 100193.915,
+    "BalanceSalaryRatio": 0.7469975565191619,
+    "ProductDensity": 0.25,
+    "EngagementScore": 1.0,
+    "AgeTenureRatio": 6.428571428571429,
+    "ZeroBalance": 0.0
+  }
+}

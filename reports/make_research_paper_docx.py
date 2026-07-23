@@ -260,11 +260,7 @@ para(doc, "Data Science Internship Program",
 para(doc, "Submitted by", align=WD_ALIGN_PARAGRAPH.CENTER, size=12,
      space_after=2)
 para(doc, "SHUBHANGI PANDEY", align=WD_ALIGN_PARAGRAPH.CENTER, bold=True,
-     size=14, space_after=30)
-para(doc, "Under the mentorship of", align=WD_ALIGN_PARAGRAPH.CENTER,
-     size=12, space_after=2)
-para(doc, "Unified Mentor", align=WD_ALIGN_PARAGRAPH.CENTER, bold=True,
-     size=13, space_after=40)
+     size=14, space_after=60)
 para(doc, "July 2026", align=WD_ALIGN_PARAGRAPH.CENTER, size=12)
 
 # ------------------------------------------------------------- declaration

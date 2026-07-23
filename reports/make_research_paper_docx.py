@@ -253,10 +253,8 @@ para(doc, "BANK CUSTOMER CHURN",
      align=WD_ALIGN_PARAGRAPH.CENTER, bold=True, size=18, space_after=14)
 para(doc, "A Machine Learning Study of Customer Attrition in European Retail Banking",
      align=WD_ALIGN_PARAGRAPH.CENTER, italic=True, size=13, space_after=30)
-para(doc, "A Research Paper submitted in partial fulfilment of the requirements of the",
-     align=WD_ALIGN_PARAGRAPH.CENTER, size=12, space_after=0)
-para(doc, "Data Science Internship Program",
-     align=WD_ALIGN_PARAGRAPH.CENTER, bold=True, size=12, space_after=30)
+para(doc, "A Research Paper", align=WD_ALIGN_PARAGRAPH.CENTER, bold=True,
+     size=12, space_after=30)
 para(doc, "Submitted by", align=WD_ALIGN_PARAGRAPH.CENTER, size=12,
      space_after=2)
 para(doc, "SHUBHANGI PANDEY", align=WD_ALIGN_PARAGRAPH.CENTER, bold=True,
@@ -268,9 +266,8 @@ doc.add_page_break()
 prelim_title(doc, "DECLARATION")
 para(doc,
      "I hereby declare that this research paper, “Predictive Modeling and "
-     "Risk Scoring for Bank Customer Churn,” is my own original work, carried "
-     "out as part of the Data Science Internship Program under the mentorship of "
-     "Unified Mentor. All data analysis, model development, and interpretation "
+     "Risk Scoring for Bank Customer Churn,” is my own original work. "
+     "All data analysis, model development, and interpretation "
      "presented herein were performed by me. Wherever the work of other authors "
      "has been used, it has been duly acknowledged and cited in accordance with "
      "APA (7th edition) referencing conventions. This paper has not been "
@@ -286,14 +283,12 @@ para(doc, "July 2026", align=WD_ALIGN_PARAGRAPH.RIGHT)
 doc.add_page_break()
 prelim_title(doc, "ACKNOWLEDGEMENT")
 para(doc,
-     "I express my sincere gratitude to Unified Mentor for the structured "
-     "guidance, the problem framing, and the opportunity to work on an "
-     "industry-relevant analytics engagement. I am equally thankful to the "
-     "open-source community behind Python, scikit-learn, XGBoost, SHAP, and "
-     "Streamlit, whose tools made an end-to-end delivery — from raw data to a "
-     "deployed decision-support dashboard — achievable within the internship "
-     "timeline. Finally, I thank my peers and reviewers whose critical feedback "
-     "materially improved the rigor and clarity of this paper.")
+     "I am thankful to the open-source community behind Python, "
+     "scikit-learn, XGBoost, SHAP, and Streamlit, whose tools made an "
+     "end-to-end delivery — from raw data to a deployed decision-support "
+     "dashboard — achievable within the project timeline. I also thank my "
+     "peers and reviewers whose critical feedback materially improved the "
+     "rigor and clarity of this paper.")
 
 # ------------------------------------------------------- executive summary
 doc.add_page_break()
